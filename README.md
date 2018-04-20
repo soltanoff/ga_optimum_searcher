@@ -3,7 +3,7 @@
 The simple genetic algorithm for the optimum search of math function.
 
 
-# Example: 
+# Example 
 Search minimum of the Schwefel's function on x from -500 to 500.
 
 Conditions:
