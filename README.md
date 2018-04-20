@@ -10,7 +10,7 @@ Conditions:
 * count of params: n = 2; 
 * max pairs for crossover step: 1000; 
 * killing portion percent: 80%;
-* max iteration count - 250;
+* max iteration count: 250;
 * plot graphic.
 
 
