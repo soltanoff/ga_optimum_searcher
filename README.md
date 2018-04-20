@@ -7,7 +7,7 @@ The simple genetic algorithm for the optimum search of math function.
 Search minimum of the Schwefel's function on x from -500 to 500.
 
 Conditions:
-* n = 2; 
+* count of params: n = 2; 
 * max pairs for crossover step: 1000; 
 * killing portion percent: 80%;
 * max iteration count - 250;
