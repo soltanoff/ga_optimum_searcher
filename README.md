@@ -3,7 +3,7 @@
 The simple genetic algorithm for the optimum search of math function.
 
 You can install all the dependencies with:
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 # Example 
 Search minimum of the Schwefel's function on x from -500 to 500.
