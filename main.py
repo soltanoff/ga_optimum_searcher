@@ -24,7 +24,7 @@ def pretty(func):
 
 
 class CGAOptimumSearcher:
-    u"""Генетическая оптимизация функции двух переменных"""
+    u"""Генетическая оптимизация функции нескольких переменных"""
     SEARCH_MAXIMUM = 0
     SEARCH_MINIMUM = 1
     RESULT_REPEAT_COUNT = 15
