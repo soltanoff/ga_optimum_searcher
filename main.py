@@ -23,6 +23,7 @@ def pretty(func):
     return wrapper
 
 
+# TODO: soltanoff: разбить на модули, не держать все в мейне
 class CGAOptimumSearcher:
     u"""Генетическая оптимизация функции нескольких переменных"""
     SEARCH_MAXIMUM = 0
