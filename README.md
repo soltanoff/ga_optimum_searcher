@@ -31,6 +31,6 @@ if __name__ == '__main__':
                            max_pairs=1000,
                            portion=0.8,
                            plot_enabled=True)
-    g.generate(left=1000, right=-500)  # range x -> [-500; 500]
+    g.generate(left=-500, right=500)  # range x -> [-500; 500]
     g.solve(iteration_count=250)
 ```
