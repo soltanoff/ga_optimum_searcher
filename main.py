@@ -23,7 +23,6 @@ def pretty(func):
     return wrapper
 
 
-# TODO: soltanoff: разбить на модули, не держать все в мейне
 class CGAOptimumSearcher:
     u"""Генетическая оптимизация функции нескольких переменных"""
     SEARCH_MAXIMUM = 0
@@ -57,7 +56,7 @@ class CGAOptimumSearcher:
 
     # начальная случайная популяция
     def generate(self, size=30, left=9, right=1) -> None:
-        self.__left_border, self.__right_border = right, left
+        self.__left_border, self.__right_border = left, right
         self.__population = (left * np.random.random_sample((size, self.__count_params)) + right).tolist()
 
     def plot(self, population, func, title: str, show=False) -> None:
@@ -226,5 +225,5 @@ if __name__ == '__main__':
                            max_pairs=1000,
                            portion=0.8,
                            plot_enabled=True)
-    g.generate(left=1000, right=-500)  # range x -> [-500; 500]
+    g.generate(left=-500, right=500)  # range x -> [-500; 500]
     g.solve(iteration_count=250)
